@@ -1,0 +1,156 @@
+<div class="content" role="main">
+  Flex grow
+  <div class="flex mb-5">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex direction
+  <div class="flex-direction">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex wrap
+  <div class="flex-wrap-container">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex flow
+  <div class="flex-flow-container">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex justify content
+  <div class="flex-justify-container">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex align items
+  <div class="flex-align-container bg-danger">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">{{card.text}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex align content
+  <div class="flex-align-content bg-danger">
+    <div class="sub-flex">
+      <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+        <img src="{{image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{card.cardTitle}}</h5>
+          <p class="card-text">{{card.text}}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-flex">
+      <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+        <img src="{{image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{card.cardTitle}}</h5>
+          <p class="card-text">{{card.text}}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  Flex order
+  <div class="flex-order">
+    <div class="card-uno">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Uno</h5>
+        <p class="card-text">Lorem</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card-dos">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dos</h5>
+        <p class="card-text">Lorem</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card-tres">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tres</h5>
+        <p class="card-text">Lorem</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card-special">
+      <img class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Especial</h5>
+        <p class="card-text">Lorem</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  Flex align self
+  <div class="flex-align-self bg-danger">
+    <div *ngFor="let card of cards" class="{{'card ' + card.cardTitle}}">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{card.cardTitle}}</h5>
+        <p class="card-text">{{card.text}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card-special">
+      <img class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">title</h5>
+        <p class="card-text">Lorem</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

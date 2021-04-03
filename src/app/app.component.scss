@@ -1,0 +1,131 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+    width: 300px;
+
+    &.dos, &.cuatro {
+      flex-grow: 1.5;
+    }
+  }
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: row-reverse;
+
+  .card {
+    width: 300px;
+  }
+}
+
+.flex-wrap-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  .card {
+    width: 300px;
+  }
+}
+
+.flex-flow-container {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+
+  .card {
+    width: 300px;
+  }
+}
+
+.flex-justify-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  .card {
+    width: 250px;
+  }
+}
+
+.flex-align-container {
+  height: 550px;
+  display: flex;
+  //align-items: flex-end;
+  align-items: center;
+  //align-items: stretch;
+  //align-items: baseline;
+  justify-content: space-evenly;
+
+  .card {
+    width: 250px;
+    background-color: white;
+    //height: fit-content;
+  }
+}
+
+.flex-align-content {
+  min-height: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+  .sub-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    width: 250px;
+    background-color: white;
+  }
+}
+
+.flex-order {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .card-uno {
+    width: 250px;
+    background-color: white;
+    order: 1;
+  }
+
+  .card-dos {
+    width: 250px;
+    background-color: white;
+    order: 3;
+  }
+
+  .card-tres {
+    width: 250px;
+    background-color: white;
+    order: 4;
+  }
+
+  .card-special {
+    width: 250px;
+    background-color: white;
+    align-self: stretch;
+    order: 2;
+  }
+}
+
+.flex-align-self {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .card {
+    width: 250px;
+    background-color: white;
+  }
+
+  .card-special {
+    width: 250px;
+    background-color: white;
+    align-self: stretch;
+    order: 2;
+  }
+}
